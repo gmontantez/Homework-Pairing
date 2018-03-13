@@ -5,6 +5,7 @@ end
 
 print uppercase_string("h,e,l,l,o") #changed strings from lowercase to uppercase
 
+
 def insert_string(added_string)
 	new_word = ""
 	added_string << new_word
@@ -43,4 +44,4 @@ def popped_element(fruit_array)
 	fruit_array.slice!(-1)
 end
 
-print popped_element(["apple", "pear", "peach", "orange", "grapefruit"]) #removes last element "grapefruit"
+print popped_element(["apple", "pear", "peach", "orange", "grapefruit"]) #removes last element (pops) "grapefruit"
